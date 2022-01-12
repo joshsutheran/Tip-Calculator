@@ -1,0 +1,90 @@
+<!--Tip Calculator-->
+
+<!--HTML Requirements-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="design.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!--CALCULATOR HEADER-->
+  <body>
+    <header>
+      <div class="header-title">
+        <img src="./Images/logo.svg" alt="Splitter Logo" />
+      </div>
+    </header>
+
+    <!--CALCULATOR MAIN BODY-->
+    <div class="tip-calc">
+      <div class="tip-input">
+        <div class="bill-input">
+          <label class="btext" for="btotal">Bill</label><br />
+          <input class="binput live" type="number" value="0" min="0" />
+          <br />
+        </div>
+        <div class="tip-select">
+          <p class="ttext">Select Tip %</p>
+          <div class="tip">
+            <div class="five-tip btn tips">5%</div>
+            <div class="ten-tip btn tips">10%</div>
+            <div class="fifteen-tip btn tips">15%</div>
+            <div class="twentyfive-tip btn tips">25%</div>
+            <div class="fifty-tip btn tips">50%</div>
+            <input
+              class="custom tips"
+              type="number"
+              placeholder="Custom"
+              min="0"
+              max="100"
+            />
+          </div>
+        </div>
+        <div class="number-people">
+          <form action="nopeople">
+            <div class="nopeople-text live">
+              <label class="ntext" for="nopeople">Number of People</label>
+              <p class="zero-active">Can't be Zero!</p>
+              <br />
+            </div>
+            <input class="ninput live" type="number" value="0" min="0" />
+          </form>
+        </div>
+      </div>
+      <div class="tip-output">
+        <div class="output-grid">
+          <div class="tip-text">
+            <p class="output-title output-left">Tip Amount</p>
+            <br />
+            <p class="output-text output-left">/ person</p>
+          </div>
+          <div class="tip-amount output-right">$0.00</div>
+          <div class="total-text">
+            <p class="output-title output-left">Total</p>
+            <br />
+            <p class="output-text output-left">/ person</p>
+          </div>
+          <div class="total-amount output-right">$0.00</div>
+        </div>
+        <div class="reset">
+          <button class="reset-btn">RESET</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
+<!--
+  <div class="calc-btn">
+  <button class="cbtn">Calculate!</button>
+</div>
+-->
