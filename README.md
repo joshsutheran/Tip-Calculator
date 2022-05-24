@@ -50,5 +50,5 @@ HTMl, CSS and JavaScript. This project is the first time I have utilised HTML, C
 
 ## Author
 
-- Frontend Mentor - [@joshsutheran](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@joshlearnstocode](https://www.twitter.com/yourusername)
+- Portfolio - www.joshsutheran.co.uk
+- Twitter - [@joshsutheran](https://www.twitter.com/joshsutheran)
